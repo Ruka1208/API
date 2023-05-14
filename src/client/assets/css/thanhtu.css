@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+}
+
+.warrper {
+    width: 1200px;
+    margin: auto;
+   
+    
+}
+
+.headerr {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+    
+}
+.headerr .header-h2 {
+    display: block;
+    float: left;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(9, 123, 210);
+    margin: 0px 20px;
+}
+.headerr .header-h2 span {
+    color: black; 
+}
+
+.headerr .header-logo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.headerr .header-logo li  {
+    margin: 0px 10px;
+}
+
+.headerr .header-img {
+    width: 400px;
+    height: auto;
+    display: flex;
+}
+
+.headerr .header-img img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+/* ------------------------------------------------- */
+
+.gt-1a {
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.gt-1a img {
+    display: flex;
+    width: 1000px;
+    height: auto;
+}
+/* ------------------------------------------------------ */
+.gt-text {
+    display: flex;
+    justify-content: center;
+}
+.gt-text .gt-text-h2 {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin: 0px 40px;
+}
+.gt-text .gt-text-h2 {
+    font-size: 20px;
+    padding: 60px ;
+    padding-left: 0px;
+}
+.gt-text .gt-text-p {
+    width: 500px;
+    float: left;
+}
+.gt-text .gt-text-p p {
+    margin: 10px ;
+}
+
+/* ----------------------------------------------- */
+.gt-text-2 {
+    width: 1200px;
+    margin: auto;
+    background: rgb(243, 243, 243);
+}
+.gt-text-2-a {
+    display: flex;
+    justify-content: center;
+   padding: 30px 0px;
+}
+.gt-text-2-h1 {
+    width: 350px;
+    display: block;
+   margin-right : 200px ;
+}
+.gt-text-2-h1 h1 {
+    font-size: 40px;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.gt-text-2-h1 span {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.gt-text-2-img {
+    width: 250px;
+    height: auto;   
+} 
+.gt-text-2-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* ------------------------------------------------------- */
+.h1 h1 {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+/* ---------------------------------------------------------- */
+.gt-lichsu-text{
+    width: 1200px;
+    margin: auto;
+}
+
+.gt-lichsu-body  {
+    display: flex;
+    justify-content: center;
+}
+.gt-lichsu-img {
+    width: 1000px;
+    height: auto;
+}
+.gt-lichsu-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gt-lichsu-text {
+    display: flex;
+    justify-content: center;
+    
+}
+.gt-lichsu-text span {
+    float: left;
+    width: 400px;
+   margin-right: 30px;
+   font-size: 16px;
+   padding: 20px 0px;
+  
+}
+    
+
+.gt-lichsu-text b {
+    width: 300px;
+    font-size: 20px;
+    
+    padding: 50px 0px;
+}
+/* ----------------------------------------------------------------------- */
+.gt-tamnhin  {
+    width: 1200px;
+    margin: auto;
+    
+}
+.gt-tamnhin p {
+    text-align: center;
+    font-weight: 600;
+}
+.gt-tamnhin-body {
+    display: flex;
+    justify-content: center;
+    margin: 1px 0px;
+    margin-bottom: 10px;
+}
+
+.gt-tamnhin-img  img {
+    width: 900px;
+   height: 400px;
+   border-radius: 10px;
+}
+
+
+
+
+.footer {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-body {
+    background-color:#233f67 ;
+}
+.footer-body-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*  */
+
+
+.careplus_bottom {
+    background: #85badd;
+}
+.bottom {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.bottom  ul {
+   margin: 0px 20px;
+}
+.bottom .careplus_bottom_h3    {
+    
+    text-align: center;
+   
+}
+
+
+.bottom ul.bottom_left {
+    float: left;
+    list-style: none;
+    margin-top: 40px ;
+    margin-left: 100px;
+}
+.bottom ul.bottom_left li {
+    padding: 5px 0px;
+}
+.bottom ul.bottom_left h4 {
+    font-size: 15px;
+    
+}
+.bottom ul.bottom_left a {
+    font-size: 14px;
+    padding-left: 10px;
+    color: black;
+}
+.bottom ul.bottom_right {
+    float: left;
+    list-style: none;
+    margin: 30px;
+}
+.bottom ul.bottom_right a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fb-zalo-yb {
+    float: right;
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+}
+ul.bottom_left li .fb-zalo-yb img {
+    height: 30px;
+    width: 30px;
+   
+}
+ul.bottom_left li .fb-zalo-yb a {
+    margin: 0px;
+    
+}
+
+.bottom ul.bottom_right li {
+    padding: 2px 0px;
+    
+}
+

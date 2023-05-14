@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 15px;
+}
+
+.body {
+    width: 1200px;
+   margin: auto;
+}
+
+.h3 {
+    text-align: center;
+    margin: 10px 0px;
+}
+.body_table {
+    background: rgb(228, 224, 224);
+    display: flex;
+}
+th ,img{
+    width: 20%;
+    padding: 10px ;
+   
+    
+}
+img {
+    width: 100px;
+    padding: auto;
+}
+table , thead{
+    width: 100% ;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+table tfoot td button  {
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    background: rgb(228, 224, 224);
+}
+
+/*  */
+div.thongtin {
+   text-align: end;
+   margin: 20px 60px;
+}
+div.thongtin button {
+    font-size: 16px;
+    padding: 7px 20px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: green;
+    border-radius: 10px;
+}

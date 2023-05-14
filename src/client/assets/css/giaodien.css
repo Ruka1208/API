@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    text-transform: capitalize;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    text-transform: capitalize;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+.container  {
+    max-width: 960px;
+    margin: 0px auto;
+    height: 60px;   
+    
+}
+.header {
+    background-color: #0080ff ;
+   
+    
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.header #logo  img {
+    max-width: 60px;
+    height: auto;
+}
+.header .main-menu {
+    display: flex;
+    list-style: none;
+    position: relative;
+    z-index: 10;
+}
+
+.header .main-menu li a {
+    display: block;
+    padding: 18px 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+/* menu da cấp */
+.header .main-menu li {
+    position: relative;
+}
+
+.main-menu ul.sub-menu {
+    position: absolute;
+    background-color: #1d8bf9;
+    list-style: none;
+    width: 170px;
+   display: none;
+}
+/* thiết lập boder khi hover */
+.main-menu>li>a {
+    position: relative;
+}
+.main-menu>li>a::before{
+    content: "";
+    height: 4px;
+    width: 0px;
+    background-color:white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.5s  cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.main-menu>li:hover>a::before {
+   width: 100%;
+     
+}
+/*  kết thúc boder hover*/
+
+/* Mũi tên đi xuống gói khám */
+
+/* Kết thúc mũi tên */
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu a {
+    padding: 5px 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #81b7ec ;
+}
+.main-menu ul.sub-menu li:hover a{
+    border-bottom: 1px solid #bad5f1 ;
+}
+.main-menu ul.sub-menu li a:hover{
+    color: black;
+}
+.main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+
+
+
+
+/* kết thúc menu da cấp */
+
+
+
+/*  */
+.care_plus {
+    background: rgb(245, 244, 243);
+}
+.size{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.care_plus .plus_h3 h3 {
+    text-align: center;
+   padding: 15px 0px;  
+}
+
+ul.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    list-style: none;
+    margin: 0px 50px;  
+}
+ul.product li {
+    flex-basis: 25%;
+    padding: 0px 5px;
+    box-sizing: border-box;  
+    margin-bottom: 30px ;   
+}
+ul.product li img {
+    max-width: 100%;
+    height: 130px;
+}
+ul.product li .product_body{
+    border: 1px solid rgb(219, 215, 215);
+    border-radius: 10px;
+    height: auto;
+}
+
+ul.product li .product_body .product-bottom .items {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+}
+ul.product li .product_body .product-bottom .items a {
+    color: black;
+}
+ul.product li .product_body .product-bottom p{
+    font-size: 12px;
+    padding: 0px 10px;
+}
+.product-bottom h4 {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    
+    margin-top: 10px;  
+}
+.product-bottom  button {
+    padding: 5px 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    display:block;
+    font-size: 16px;
+    font-weight: 600;
+    background: #007ac9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/*  */
+.about-uss {
+    max-width: 960px;
+    margin: 0px auto;
+    
+    
+
+}
+.about-us-imgg {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+.slide-1 img {
+    max-width: 280px;
+    height: auto;
+}
+.slide-2 img {
+    width: 650px;
+   height: 280px;
+}
+
+
+
+
+.about-us {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.about-us .about-us-img{
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
+   
+}
+.about-us .about-us-img img {
+   max-width: 700px;
+   height: auto;
+   
+}
+
+
+
+/*  */
+.doctor {
+    max-width: 960px;
+    margin: 0px auto;
+    
+    
+    
+}
+.body_doctor h2{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 17px;
+    
+}
+ul.body_doctor_ul  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul.body_doctor_ul li {
+    margin: 0px 5px;
+}
+ul.body_doctor_ul li img {
+    width: 160px;
+    height: 190px;
+}
+ul.body_doctor_ul li .doctor_text {
+    text-align: center;
+}
+.doctor_text h3 {
+    font-size: 13px;
+} 
+.doctor_text p {
+    font-size: 10px;
+    text-align: center;
+}
+/*  */
+.dichvu-body {
+    width: 960px;
+    margin: 0px auto;
+}
+.dichvu h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.dichvu .dv-tong{
+   display: flex;
+   justify-content: center;
+   margin: 10px 0px;
+}
+.dv-img {
+    display: flex;
+    float: left;
+    
+    
+}
+
+.dichvu .dv-img  img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.dv-text {
+   float: left;
+   width: 500px;
+  
+   padding: 25px;
+}
+.dv-text  {
+    text-align: center;
+}
+.dv-text p {
+    text-align: left;
+}
+
+/*  */
+
+/* .careplus_bottom {
+    
+   
+} */
+.bottom {
+    width: 1200px;
+    margin:0px auto;
+    display: flex;
+    justify-content: center;
+    background: #0080ff;
+    color: #f5f5f5;
+    
+}
+.bottom  ul {
+   margin: 0px 20px;
+}
+.bottom .careplus_bottom_h3{
+    text-align: center;
+}
+
+
+.bottom ul.bottom_left {
+    float: left;
+    list-style: none;
+    margin-top: 40px ;
+    margin-left: 100px;
+}
+.bottom ul.bottom_left li {
+    padding: 5px 0px;
+    
+}
+.bottom ul.bottom_left h4 {
+    font-size: 15px;
+    
+}
+.bottom ul.bottom_left li a {
+    font-size: 14px;
+    padding-left: 10px;
+    color: #f5f5f5;
+   
+}
+.bottom ul.bottom_right {
+    float: left;
+    list-style: none;
+    margin: 30px;
+}
+.fb-zalo-yb {
+    float: right;
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+}
+ul.bottom_left li .fb-zalo-yb img {
+    height: 30px;
+    width: 30px;   
+}
+
+.bottom ul.bottom_right li a {
+    color: #f5f5f5;
+    
+}
+
+.careplus_bottom{
+    background-color:#0080ff;
+    color: #f5f5f5;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.footer .footer-top {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+.footer .footer-top img {
+    max-width: 60px;
+}
+.footer .footer-top span {
+    display: block;
+    padding: 18px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
